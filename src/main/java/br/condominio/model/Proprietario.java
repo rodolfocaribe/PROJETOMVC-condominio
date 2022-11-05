@@ -11,11 +11,8 @@ import java.util.List;
 @NoArgsConstructor
 
 public class Proprietario {
-    private int id;
     private String nome;
     private String telefone;
-    private List<Apartamento> apartamentos;
-
-    public Proprietario(int id, String nome, String telefone) {
-    }
+    private int id;
+//    private List<Apartamento> apartamentosDoProprietario;
 }

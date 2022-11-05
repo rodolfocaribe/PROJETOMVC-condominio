@@ -9,6 +9,7 @@
             <th scope="col">Nro da Porta</th>
             <th scope="col">Qtde Quartos</th>
             <th scope="col">Tipo</th>
+            <th scope="col">Proprietário</th>
         </tr>
         </thead>
         <tbody>
@@ -17,6 +18,7 @@
             <td th:text="${apartamento.nroPorta}"></td>
             <td th:text="${apartamento.qtdeQuartos}"></td>
             <td th:text="${apartamento.tipo}"></td>
+            <td th:text="${apartamento.proprietario}"></td>
             <td>
                 <a th:href="@{/excluir-apartamento(id=${apartamento.id})}">excluir</a>
                 <a th:href="@{/editar-apartamento(id=${apartamento.id})}">editar</a>
